@@ -17,14 +17,14 @@ export default {
 
 
 <template>
-    <header class="bg-white w-full h-32 flex justify-center items-center shadow-md px-10" >
-        <div class="flex justify-between items-center w-full h-20 ">
-            <div class="flex justify-start flex-col">
+    <header class="bg-white w-full  flex justify-center items-center " >
+        <div class="flex justify-between items-center w-full shadow-xl bg-white px-10  ">
+            <div class="flex justify-start flex-col my-10">
                 <h1 class="text-[25px] font-medium text-primaryColors">ENREGISTREMENT EN LIGNE</h1>
                 <h1 class="text-[25px] font-extrabold text-primaryColors">CESSION DE VOTRE VÉHICULE</h1>
             </div>
-            <div class="flex justify-start items-center flex-row  relative  h-full">
-                <div class="absolute top-0 left-0 ">
+            <div class="flex justify-start items-center flex-row  relative  h-full my-10">
+                <div class="absolute -top-2 left-0 ">
                   <img :src="bleuSvg" alt="Bleu Icon" />
                 </div>
                 <div class="w-6">
